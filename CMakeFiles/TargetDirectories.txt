@@ -1,3 +1,0 @@
-/root/Downloads/MyTest/CMakeFiles/edit_cache.dir
-/root/Downloads/MyTest/CMakeFiles/rebuild_cache.dir
-/root/Downloads/MyTest/CMakeFiles/cmake-good.dir
