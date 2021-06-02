@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/Downloads/MyTest/main.cpp" "CMakeFiles/cmake-good.dir/main.cpp.o" "gcc" "CMakeFiles/cmake-good.dir/main.cpp.o.d"
+  "/root/Downloads/MyTest/channelWindow.cpp" "CMakeFiles/HELLO.dir/channelWindow.cpp.o" "gcc" "CMakeFiles/HELLO.dir/channelWindow.cpp.o.d"
+  "/root/Downloads/MyTest/main.cpp" "CMakeFiles/HELLO.dir/main.cpp.o" "gcc" "CMakeFiles/HELLO.dir/main.cpp.o.d"
+  "/root/Downloads/MyTest/mainWindow.cpp" "CMakeFiles/HELLO.dir/mainWindow.cpp.o" "gcc" "CMakeFiles/HELLO.dir/mainWindow.cpp.o.d"
   )
 
 # Targets to which this target links.

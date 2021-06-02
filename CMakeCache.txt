@@ -230,6 +230,18 @@ HELLO_BINARY_DIR:STATIC=/root/Downloads/MyTest
 //Value Computed by CMake
 HELLO_SOURCE_DIR:STATIC=/root/Downloads/MyTest
 
+//The directory containing a CMake configuration file for Qt5Core.
+Qt5Core_DIR:PATH=/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Core
+
+//The directory containing a CMake configuration file for Qt5Gui.
+Qt5Gui_DIR:PATH=/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Gui
+
+//The directory containing a CMake configuration file for Qt5Widgets.
+Qt5Widgets_DIR:PATH=/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5Widgets
+
+//The directory containing a CMake configuration file for Qt5.
+Qt5_DIR:PATH=/opt/Qt/5.15.2/gcc_64/lib/cmake/Qt5
+
 
 ########################
 # INTERNAL cache entries
