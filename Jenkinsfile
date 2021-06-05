@@ -1,12 +1,14 @@
 
 pipeline {
-	agent { label 'kubepods' }
+	agent { 
+		docker { image 'rohan1111/huscript:v2' }
+	}
 	stages {
 		stage("Build"){
 			steps {
 				echo "Building the application..."
-				sh "/usr/bin/qmake-qt5 simple-qt-gui.pro"
-				sh "make"
+				sh "qmake-qt5 simple-qt-gui.pro"
+				sh "cmake --build ."
 			}
 		}
 	}
