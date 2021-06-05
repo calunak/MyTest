@@ -1,7 +1,10 @@
 
 pipeline {
 	agent{
-		docker { label 'docker' }
+		docker { 
+			label 'docker' 
+			image 'ramazan2339/ubuntu-qtjenknis'
+		}
 	}
 	
 	stages {
