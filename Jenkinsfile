@@ -5,7 +5,7 @@ pipeline {
 		stage("Build"){
 			steps {
 				echo "Building the application..."
-				sh "/usr/bin/qmake-qt5 simple-qt-gui.pro"
+				sh "qmake-qt5 simple-qt-gui.pro"
 				sh "make"
 			}
 		}
