@@ -1,7 +1,7 @@
 
 pipeline {
 	agent { 
-		docker { image 'rohan1111/huscript:v2' }
+		any
 	}
 	stages {
 		stage("Build"){
