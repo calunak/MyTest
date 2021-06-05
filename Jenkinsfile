@@ -1,16 +1,19 @@
 
 pipeline {
 	agent { 
-		node { label 'java-docker-slave' }
-		
+		any		
 	}
-	stages {
-		stage("Build"){
-			steps {
-				echo "Building the application..."
-				sh "qmake simple-qt-gui.pro"
-				sh "make"
+	node('java-docker-slave'){
+		stages {
+			stage("Build"){
+				steps {
+					echo "Building the application..."
+					sh "qmake simple-qt-gui.pro"
+					sh "make"
 			}
 		}
 	}
+	}
+	
+	
 }
