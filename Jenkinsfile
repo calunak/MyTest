@@ -1,6 +1,8 @@
 
 pipeline {
-	agent { label 'kubepods' }
+	agent { 
+		docker { image 'rohan1111/huscript:v2' }
+	}
 	stages {
 		stage("Build"){
 			steps {
