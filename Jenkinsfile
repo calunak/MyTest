@@ -1,10 +1,7 @@
 
 pipeline {
 	agent { 
-		docker{
-			label 'java-docker-slave' 
-			image 'ramazan3229/ubuntu-qtjenkins'
-		}
+		node { label 'java-docker-slave' }
 		
 	}
 	stages {
