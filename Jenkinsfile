@@ -2,7 +2,7 @@
 pipeline {
 	agent{
 		docker { 
-			label 'docker' 
+			label 'java-docker-slave' 
 			image 'ramazan2339/ubuntu-qtjenknis'
 		}
 	}
