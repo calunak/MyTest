@@ -5,8 +5,8 @@ pipeline {
 		stage("Build"){
 			steps {
 				echo "Building the application..."
-				sh "uname -a"
-				sh "qmake simple-qt-gui.pro"
+				sh "yum install -y qt5-qtbase-devel"
+				sh "qmake-qt5 simple-qt-gui.pro"
 				sh "make"
 			}
 		}
