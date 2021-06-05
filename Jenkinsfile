@@ -1,6 +1,7 @@
 
 pipeline {
-	agent any
+	agent{
+		docker { image 'ramazan3229/ubuntu-qtjenkins' }
 	
 	stages {
 		stage("Build"){
