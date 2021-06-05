@@ -1,7 +1,7 @@
 
 pipeline {
 	agent{
-		docker { label 'java-docker-slave' }
+		docker { label 'docker' }
 	}
 	
 	stages {
